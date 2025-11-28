@@ -1,0 +1,18 @@
+{
+    "id": "blablacar.android-tokens-xml-exporter",
+    "name": "Android tokens XML exporter",
+    "description": "Android Exporter to XML",
+    "author": "AndroidBlaBlaCar",
+    "organization": "BlaBlaCar.com",
+    "homepage": "https://blablacar.com",
+    "version": "1.0.7",
+    "usesBrands": true,
+    "usesThemes": false,
+    "executable": "/dist/build.js",
+    "engine": "latest",
+    "tags": [
+        "Android",
+        "Tokens"
+    ],
+    "source_dir": "src"
+}

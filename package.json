@@ -1,0 +1,27 @@
+{
+    "name": "@blablacar/android-tokens-exporter",
+    "version": "1.0.0",
+    "description": "Android token extractor for XML",
+    "main": "index.js",
+    "scripts": {
+        "buildExporter": "npx webpack --mode=production",
+        "dev": "npx webpack --mode=development --watch"
+    },
+    "author": "VV",
+    "license": "MIT",
+    "dependencies": {
+        "@supernovaio/export-helpers": "1.0.7",
+        "@supernovaio/sdk-exporters": "2.0.9",
+        "xmlbuilder2": "^3.1.1"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.26",
+        "prettier": "3.2.5",
+        "terser-webpack-plugin": "5.3.10",
+        "ts-loader": "9.5.1",
+        "typescript": "5.4.2",
+        "webpack": "5.90.3",
+        "webpack-cli": "5.1.4"
+    },
+    "private": false
+}
